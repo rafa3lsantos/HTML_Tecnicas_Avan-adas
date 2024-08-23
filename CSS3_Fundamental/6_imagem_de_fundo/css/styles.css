@@ -1,0 +1,10 @@
+#background {
+    background-image: url("../img/pikachu.jpeg");
+    background-size: cover;
+    height: 200px;
+}
+
+#background h2 {
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+#primeiro-titulo {
+    border: 1px solid #000;
+    padding: 50px;
+}
+
+#segundo-titulo{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    width: 200px;
+}
+
+.paragrafo {
+    padding: 5px 10px 15px 20px;
+}

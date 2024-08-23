@@ -1,0 +1,11 @@
+#primeiro-titulo {
+    color: magenta;
+}
+/*HEXADECIMAL*/
+.paragrafo {
+    color: #05A3F5;
+}
+/*rgb - RED, GREEN AND BLUE*/
+#segundo-titulo {
+    color: rgb(123, 65, 22);
+}
