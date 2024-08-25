@@ -1,0 +1,92 @@
+/*Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+}
+
+/* cabecalho */
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #4A87E8;
+}
+
+/* Galeria */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid #4A87E8;
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 .card-image {
+    background-image: url(../img/soccer.png);
+}
+
+.card-2 .card-image {
+    background-image: url(../img/voleyball.png);
+}
+
+.card-3 .card-image {
+    background-image: url(../img/basketball.png);
+}
+
+.card-4 .card-image {
+    background-image: url(../img/tennis.png);
+}
+
+.card-5 .card-image {
+    background-image: url(../img/tabletennis.png);
+}
+
+.card-6 .card-image {
+    background-image: url(../img/boxe.png);
+}
+
+.card-7 .card-image {
+    background-image: url(../img/swimming.png);
+}
+
+.card-8 .card-image {
+    background-image: url(../img/athleticism.png);
+}
+
+.btn {
+    display: block;
+    background-color: #4A87E8;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #4A87E8;
+    border-color: #4A87E8;
+}
+
+.card-description {
+    padding: 20px 10px;
+}
