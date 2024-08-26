@@ -1,0 +1,59 @@
+body {
+	background-color: #DDD;
+}
+
+.container {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	background-color: #FFF;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	height: 100px;
+	/* flex: 1 1 300px; */
+	/*flex: grow, shrink, basis*/
+	width: 100px;
+}
+
+.first {
+	background-color: red;
+}
+
+.second {
+	background-color: green;
+	align-self: flex-end;
+}
+
+.third {
+	background-color: blue;
+
+}
+
+
+/*
+--- Flex ---
+
+flex-grow: faz os elementos crescerem 
+flex-shrink: controla o quanto o elemento vai reduzir
+flex-basis: tamanho do elemento que ele vai representar na tela
+flex-direction: row-reverse -> Inverte a ordem da linha
+flex-direction: column -> As linhas se tornam colunas
+flex-direction: column-reverse -> Inverte a ordem da coluna
+order: altera a ordem dos elementos
+
+--- Justify-content = Horizontal ---
+justify-content: flex-end -> Os elementos para a direita (final) do container
+justify-content: center -> Os elementos são centralizados
+justify-content: space-between -> APROVEITAM O MAXIMO ESPACO DO CONTAINER e ficam espaçados entre si
+justify-content: space-around -> Quase igual ao between, mas ele dá uma folga na borda para os elementos 
+justify-content: space-evenly -> Quase igual aos outros spaces, mas ele tenta deixar todos os espaços iguais
+
+--- Align-items = Vertical ---
+align-items: flex-end -> Os elementos para baixo (final) do container 
+align-items: stretch -> alonga os elementos
+align-items: center -> Centraliza os elementos
+--- align-self --- -> Altera apenas um elemento
+*/
